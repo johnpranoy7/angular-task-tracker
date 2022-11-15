@@ -1,4 +1,15 @@
-<div class="task">
-    <h3>{{task?.name}} <span class="material-icons material-symbols-outlined">close</span> </h3>
-    <p>{{task?.day}}</p>
+<div
+  class="task"
+  [ngClass]="{ reminder: task?.reminder }"
+  (dblclick)="toggleReminder(task)"
+>
+  <h3>
+    {{ task?.name }}
+    <span
+      class="material-icons material-symbols-outlined"
+      (click)="deleteTrigger(task)"
+      >close</span
+    >
+  </h3>
+  <p>{{ task?.day }}</p>
 </div>

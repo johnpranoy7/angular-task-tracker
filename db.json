@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 4,
+      "name": "Work",
+      "day": "8th Oct 2022",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "name": "School",
+      "day": "8th Oct 2022",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "name": "Play",
+      "day": "8th Oct 2022",
+      "reminder": true
+    }
+  ]
+}
